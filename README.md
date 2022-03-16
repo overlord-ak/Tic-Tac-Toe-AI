@@ -9,8 +9,10 @@ The computer makes it moves with the help of a decision making algorithm called 
 
 ## To switch who plays first:
 In game.py go to the bottom of the file and change it to the following:
+```python
 if __name__ == "__main__":
     x_player = HumanPlayer('X')
     o_player = GeniusComputerPlayer('O')
     t = TicTacToe()
     play(t, x_player, o_player, print_game=True)
+```
