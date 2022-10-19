@@ -7,6 +7,10 @@ The computer makes it moves with the help of a decision making algorithm called 
 1. Clone the repository
 2. Run game.py using python interpreter
 
+## Tech Stack:
+1. Python
+2. Minimax algorithm
+
 ## To switch who plays first:
 In game.py go to the bottom of the file and change the if block to the following:
 ```python
